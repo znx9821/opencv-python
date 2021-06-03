@@ -1,0 +1,18 @@
+参考说明：https://zhuanlan.zhihu.com/p/54278593
+
+1. 下载 anaconda
+清华镜像： https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ 
+Anaconda3-5.3.1-Windows-x86_64.exe
+
+2. 安装 anaconda
+不选择 add anaconda to my PATH enviroment variable
+选择 Register anaconda as my default Python 3.7
+安装完毕之后，
+不安装microsoft visual studio
+
+3. 安装 openCV
+在安装完毕的 anaconda 选择 anaconda Navigator 
+之后在Environments 选择最右边的 installed下拉菜单，选择 All
+然后在右边的Search Packages 里面输入 openCV, 搜索
+之后把需要的三个 packages:
+libopencv, opencv, py-opencv三个勾选上
