@@ -41,6 +41,7 @@ def list_ports(): #Test the ports and returns a tuple with the available ports a
                 k = cv2.waitKey(0) & 0xFF
                 if k == ord('s'):
                     selected_ports.append(dev_port)
+                    print("camera %s is selected" %dev_port)
                 cv2.destroyAllWindows()
             else:
                 print("Port %s is present but does not reads" %dev_port) #print("Port %s for camera ( %s x %s) is present but does not reads." %(dev_port,h,w))
